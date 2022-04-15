@@ -1,0 +1,43 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+a{
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.login-btn{
+background-color: $purple;
+padding: 0px 10px;
+text-align: center;
+border-radius: 15px;
+}
+.signin-btn{
+background-color: $purple;
+padding: 0px 10px;
+text-align: center;
+border-radius: 15px;
+}
