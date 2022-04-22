@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/icomoon.eot?5mb28r');
-  src: url('../fonts/icomoon.eot?5mb28r#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?5mb28r') format('truetype'),
-    url('../fonts/icomoon.woff?5mb28r') format('woff'),
-    url('../fonts/icomoon.svg?5mb28r#icomoon') format('svg');
+  src: url('../fonts/icomoon.eot?3itb1x');
+  src: url('../fonts/icomoon.eot?3itb1x#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3itb1x') format('truetype'),
+    url('../fonts/icomoon.woff?3itb1x') format('woff'),
+    url('../fonts/icomoon.svg?3itb1x#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,8 +26,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-lock:before {
+  content: "\e905";
+}
+
+.icon-eye:before {
+  content: "\e907";
+}
+
+.icon-megaphone:before {
+  content: "\e906";
+}
+
 .icon-mail_outline:before {
   content: "\e900";
+}
+
+.icon-insert_comment:before {
+  content: "\e908";
+}
+
+.icon-mode_comment:before {
+  content: "\e909";
+}
+
+.icon-add_comment:before {
+  content: "\e90a";
 }
 
 .icon-keyboard_arrow_left:before {
@@ -52,6 +76,10 @@
 
 .icon-shopping-cart:before {
   content: "\f07a";
+}
+
+.icon-bar-chart:before {
+  content: "\f080";
 }
 
 .icon-heart-o:before {
@@ -94,6 +122,10 @@
   content: "\f0e1";
 }
 
+.icon-comment-o:before {
+  content: "\f0e5";
+}
+
 .icon-smile-o:before {
   content: "\f118";
 }
@@ -112,6 +144,18 @@
 
 .icon-language:before {
   content: "\f1ab";
+}
+
+.icon-drivers-license-o:before {
+  content: "\f2c3";
+}
+
+.icon-magic-wand:before {
+  content: "\e997";
+}
+
+.icon-leaf:before {
+  content: "\e9a4";
 }
 
 .icon-cloud-download:before {
