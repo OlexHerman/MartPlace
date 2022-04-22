@@ -790,3 +790,63 @@
   font-size: 24px;
 }
 //end choose section
+//start pointer section
+
+.pointers {
+  padding: 0 !important;
+}
+
+.pointer__inner-box{
+  display: flex;
+  justify-content: center;
+}
+.pointer__inner {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pointer__inner-item {
+  text-align: center;
+  color: #fff;
+  padding: 100px 120px;
+}
+
+.pointer__item-ico {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 120px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  }
+
+
+.pointer__item-title {
+  font-size: 36px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.pointer__item-text {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 600px;
+}
+
+.pointer__item-btn {
+  background-color: #fff;
+  color: $blue;
+  border-radius: 25px;
+  padding: 12px 26px;
+}
+.pointer-btn2{
+  color: $purple;
+}
+
+//end pointer section
