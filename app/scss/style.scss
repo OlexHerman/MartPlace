@@ -456,6 +456,7 @@
   border-radius: 4px;
   max-width: 360px;
   margin-bottom: 30px;
+  width: 100%;
 }
 .release__content-img{
   height: 230px;
@@ -503,6 +504,9 @@
   padding-bottom: 15px;
 }
 .release__box-title{
+  &, a { 
+  color: #000;
+  }
   font-size: 20px;
   font-weight: 500;
   padding: 20px 30px ;
@@ -601,3 +605,82 @@
   color: #fff;
 }
 //end release section
+//start followers section
+
+.followers{
+  padding: 120px;
+  background-color: #eff1f5;
+}
+.followers__slider{
+  max-width: 1140px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  font-weight: 500;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.followers__inner-content{
+  overflow: hidden;
+}
+
+.followers__slider-title{
+  font-size: 30px;
+}
+.followers__slider-btn{
+  background-color: $blue;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.slick-list, .draggable{
+  width: 1160px;
+}
+//end followers section
+//start dignity section
+.dignity {
+  padding: 80px 0;
+  background-color: $dark;
+}
+.dignity__box {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+.dignity__item-ico{
+  margin-bottom: 45px;
+}
+.dignity__box-item1::before{
+  content: "\f0b1";
+  font-family: 'icomoon';
+  font-size: 48px;
+}
+.dignity__box-item2::before {
+  content: "\e9c2";
+  font-family: 'icomoon';
+  font-size: 48px;
+}
+.dignity__box-item3::before {
+  content: "\f118";
+  font-family: 'icomoon';
+  font-size: 48px;
+}
+.dignity__box-item4::before {
+  content: "\e903";
+  font-family: 'icomoon';
+  font-size: 48px;
+}
+.dignity__item-number {
+  font-size: 36px;
+}
+.dignity__item-text {
+  font-size: 18px;
+  color: #fff;
+}
+//end dignity section

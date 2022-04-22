@@ -10,6 +10,12 @@ $(function(){
     fade: true
   });
 
+  $('.followers__inner-content').slick({
+    appendArrows: ".followers__slider-btn",
+    slidesToShow: 3,
+    slidesToScroll: 3,
+  });
+
   
 
 });
