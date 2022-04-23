@@ -1026,3 +1026,48 @@
   margin-right: 7px;
 }
 //end latest news section
+//start assurance section
+
+.assurance {
+  padding: 0 0;
+}
+.assurance__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.assurance__inner-item {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0px;
+  a{
+    color: #000;
+  }
+}
+.assurance__inner-item + .assurance__inner-item{
+  border-left: 1px solid #e8eaf3;
+}
+.assurance__item-image {
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 120px;
+  margin-bottom: 25px;
+}
+
+.assurance__item-title {
+  font-size: 24px;
+  font-weight: 500;
+  span{
+    color: $blue;
+  }
+}
+.assurance-title2{
+  span{
+    color: $purple;
+  }
+}
+//end assurance section
