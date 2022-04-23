@@ -1071,3 +1071,41 @@
   }
 }
 //end assurance section
+//start readytj section
+
+.readytj {
+  padding: 100px 0 110px;
+  background: rgb(115, 71, 193);
+  background: linear-gradient(90deg, rgba(115, 71, 193, 1) 0%, rgba(12, 56, 218, 1) 100%);
+}
+
+.readytj__inner {
+  text-align: center;
+  color: #fff;
+  
+}
+
+.readytj__inner-title {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.readytj__inner-text {
+  font-size: 18px;
+}
+
+.readytj__inner-btn {
+  position: relative;
+  margin-top: 50px;
+  padding: 12px 42px;
+  background-color: #fff;
+  border-radius: 25px;
+  color: $blue;
+}
+.readytj__inner-btn:hover{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+//end readytj section
