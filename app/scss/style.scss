@@ -6,12 +6,18 @@
 
 .header__inner{
   background-color: $grey;
-}
+  z-index: 1;
+} 
 .header__top{
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__content{
+  display: flex;
+  align-items:center ;
+  z-index: 20;
 }
 .become-btn{
   background-color: $blue;
@@ -40,6 +46,7 @@
   }
 }
 .header__bottom-form{
+  z-index: 5;
   max-width: 360px;
   width: 100%;
   position: relative;
@@ -1221,8 +1228,9 @@
     content: "\f09a";
     font-family: 'icomoon';
     font-size: 16px;
-    left: 16px;
-    top: 6px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 .link-twitter {
@@ -1233,8 +1241,9 @@
       content: "\f099";
       font-family: 'icomoon';
       font-size: 16px;
-      left: 14px;
-      top: 6px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 }
 .link-gmail {
@@ -1245,8 +1254,9 @@
       content: "\f1a0";
       font-family: 'icomoon';
       font-size: 16px;
-      left: 14px;
-      top: 6px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 }
 
@@ -1258,8 +1268,9 @@
       content: "\f0d2";
       font-family: 'icomoon';
       font-size: 16px;
-      left: 14px;
-      top: 6px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 }
 
@@ -1271,8 +1282,9 @@
       content: "\f0e1";
       font-family: 'icomoon';
       font-size: 16px;
-      left: 14px;
-      top: 6px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 }
 .link-dribbble {
@@ -1283,8 +1295,9 @@
       content: "\f17d";
       font-family: 'icomoon';
       font-size: 16px;
-      left: 14px;
-      top: 6px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 }
 
