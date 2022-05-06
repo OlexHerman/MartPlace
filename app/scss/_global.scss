@@ -98,9 +98,327 @@ body{
   content: "\f0e0";
   font-family: 'icomoon';
 }
+
 .basket::before {
   content: "\f07a";
   font-family: 'icomoon';
+}
+
+.notifications__menu {
+  top: 117px;
+  left: 0px;
+  position: absolute;
+  box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+  background-color: #fff;
+  width: 370px;
+  border-top: 1px solid $blue;
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  will-change: transform;
+  transition: all .5s;
+  opacity: 0;
+}
+
+.notifications__box:hover {
+  .notifications__menu {
+    border-top: 1px solid $blue;
+    height: auto;
+    overflow: hidden;
+    will-change: transform;
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+.notifications__menu-top {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notifications__menu-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.notifications__menu-top .notifications__menu-view {
+  color: $blue;
+  font-size: 15px;
+}
+
+.notifications__menu-item {
+  border-top: 1px solid #e8ebf0;
+  padding: 18px 20px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  height: 98px;
+}
+
+.notifications__image-box {
+  display: contents;
+}
+.notice-fav::after{
+  content: "added to Favourite";
+  font-size: 15px;
+  color: #747a86;
+  font-weight: 400;
+}
+.notice-comm::after {
+  content: "commented ";
+  font-size: 15px;
+  color: #747a86;
+  font-weight: 400;
+}
+.notice-purchased::after {
+  content: "purchased";
+  font-size: 15px;
+  color: #747a86;
+  font-weight: 400;
+}
+.notice-review::after {
+  content: "wrote a review on";
+  font-size: 15px;
+  color: #747a86;
+  font-weight: 400;
+}
+
+.notifications__menu-item .notifications__item-name {
+  position: relative;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  display: block;
+  line-height: 16px;
+  max-width: 230px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.notifications__item-run {
+  color: #747a86;
+  font-size: 14px;
+  line-height: 16px;
+  display: inline-block;
+  position: absolute;
+  left: 75px;
+  bottom: 20px;
+  font-weight: 500;
+}
+
+.notifications__item-box .notifications__item-product {
+  font-weight: 500;
+  color: $blue;
+  display: block;
+  font-size: 15px;
+  line-height: 25px;
+  max-width: 217px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+.notifi-fav{
+  top: 33px;
+  right: 25px;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #e6f1fd;
+}
+.notifi-fav::before{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "\f08a";
+  font-family: 'icomoon';
+  font-size: 15px;
+  color: $blue;
+}
+.notifi-comm {
+  top: 33px;
+  right: 25px;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #f1ecf9;
+}
+
+.notifi-comm::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "\f0e5";
+  font-family: 'icomoon';
+  font-size: 15px;
+  color: $purple;
+}
+.notifi-cart {
+  top: 33px;
+  right: 25px;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #fff0f0;
+}
+
+.notifi-cart::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "\f07a";
+  font-family: 'icomoon';
+  font-size: 15px;
+  color: $pink;
+}
+.notifi-star {
+  top: 33px;
+  right: 25px;
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #effaeb;
+}
+
+.notifi-star::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "\e914";
+  font-family: 'icomoon';
+  font-size: 18px;
+  color: $green;
+}
+
+.messages__menu {
+  position: absolute;
+  right: 95px;
+  top: 117px;
+  box-shadow: 0px 5px 40px 0px rgba(82, 85, 90, 0.2);
+  background-color: #fff;
+  width: 370px;
+  border-top: 1px solid $blue;
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  will-change: transform;
+  transition: all .5s;
+  opacity: 0;
+}
+
+.messages__menu-top {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.messages__menu-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.messages__menu-top .messages__menu-view {
+  color: $blue;
+  font-size: 15px;
+}
+
+.messages__menu-item {
+  border-top: 1px solid #e8ebf0;
+  padding: 18px 20px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.messages__image-box{
+  display: contents;
+}
+
+.user__item-img {
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.messages__menu-item .messages__item-name {
+  position: relative;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  line-height: 16px;
+  max-width: 190px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.messages__item-run {
+  color: $blue;
+  font-size: 14px;
+  line-height: 16px;
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+  top: 18px;
+}
+
+.messages__item-text {
+  display: block;
+  font-size: 15px;
+  line-height: 40px;
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.messages__box:hover{
+  .messages__menu{
+    border-top: 1px solid $blue;
+    height: auto;
+    overflow: hidden;
+    will-change: transform;
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+.viewed{
+  span{
+    color: #747a86;
+  }
+}
+.message-unread::after{
+  content: "\e900";
+  font-family: 'icomoon';
+  font-size: 15px;
+  position: absolute;
+  color: $blue;
+  top: 2px;
+  margin-left: 15px;
+}
+
+.message-reply::after{
+  content: "\f045";
+  font-family: 'icomoon';
+  font-size: 15px;
+  position: absolute;
+  color: #7f7f7f;
+  top: 2px;
+  margin-left: 15px;
 }
 
 .basket__box:hover{
@@ -110,10 +428,12 @@ body{
     overflow: hidden;
     will-change: transform;
     transform: rotateX(0deg);
+    opacity: 1;
   }
 
 }
 .basket__menu {
+  opacity: 0;
   transform-origin: 0% 0%;
   transform: rotateX(-90deg);
   will-change: transform;
@@ -180,8 +500,8 @@ body{
 }
 
 .basket__item-del{
-  width: 32px;
-  height: 32px;
+  width: 33px;
+  height: 33px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,18 +575,22 @@ body{
   span{
     background-color: $pink;
   }
+  padding-bottom: 33px;
+  margin-top: 33px;
 }
 .messages {
   span {
     background-color: $green;
   }
+  padding-bottom: 33px;
+  margin-top: 33px;
 }
 .basket {
   span {
     background-color: $blue;
   }
-  padding-bottom: 32px;
-  margin-top: 32px;
+  padding-bottom: 33px;
+  margin-top: 33px;
 }
 .user{
   padding-bottom: 19px;
@@ -299,6 +623,7 @@ body{
     color: $blue;
   }
 }
+
 .user__box{
   position: relative;
 }
